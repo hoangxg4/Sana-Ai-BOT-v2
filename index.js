@@ -228,7 +228,7 @@ bot.command("new", async (ctx) => {
 bot.on("text", async (ctx) => {
   try {
     const groupId = ctx.message.chat.id; // Get the group chat ID
-    const allowedGroupId = -6191745507; // Specify the allowed group chat ID
+    const allowedGroupId = 6191745507; // Specify the allowed group chat ID
 
     if (groupId !== allowedGroupId) {
       ctx.reply("Join https://t.me/codewithprakhar to continue chat");
